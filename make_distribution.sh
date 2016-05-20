@@ -24,6 +24,7 @@ cp $ANDROID_INSTALL_DIRECTORY/u-boot/MLO $DISTRIBUTION_PATH/Boot_Images
 cp $ANDROID_INSTALL_DIRECTORY/u-boot/u-boot.img $DISTRIBUTION_PATH/Boot_Images
 cp $ANDROID_INSTALL_DIRECTORY/kernel/arch/arm/boot/zImage $DISTRIBUTION_PATH/Boot_Images
 cp $ANDROID_INSTALL_DIRECTORY/kernel/arch/arm/boot/dts/am335x-boneblack.dtb $DISTRIBUTION_PATH/Boot_Images/dtbs
+cp $ANDROID_INSTALL_DIRECTORY/kernel/arch/arm/boot/dts/am335x-bonegreen.dtb $DISTRIBUTION_PATH/Boot_Images/dtbs
 cp $ANDROID_INSTALL_DIRECTORY/external/ti_android_utilities/am335x/u-boot-env/uEnv_$TARGET_PRODUCT_NAME.txt $DISTRIBUTION_PATH/Boot_Images/uEnv.txt
 cp $ANDROID_INSTALL_DIRECTORY/out/target/product/$TARGET_PRODUCT_NAME/rootfs.tar.bz2 $DISTRIBUTION_PATH/Filesystem
 cp -r $ANDROID_INSTALL_DIRECTORY/external/ti_android_utilities/Media_Clips $DISTRIBUTION_PATH/
